@@ -1,0 +1,111 @@
+header, nav, main, footer {
+	font-family: Roboto, Arial, Halvetica, sans-serif; 
+	display: block;
+	width: 1078px;
+}
+h1, h2, h3, h4, h5
+{
+color:white;
+font-size: 4px;
+}
+body {
+	color: #ffffff;
+	background-color:#2424248f;
+	position: relative;
+	margin: auto;
+}
+header {
+	background-color: pink;
+	position:relative;
+	height: 80px;
+	width: 1078px;
+}
+main {
+	height: auto;
+	background-color: rgb(88, 88, 88);
+	overflow:hidden;
+	width: 1078px;
+}
+nav {
+	color:white;
+	background-color: rgb(56, 56, 56);
+	width: 1078px;
+	
+}
+footer {
+	background-color: rgb(59, 59, 59);
+	clear: both;
+}
+#col-left {
+	background-color:#353636;
+	width: 200px;
+	height: 600px;
+	float: left;
+	padding: 0px;
+}
+#col-center {
+	width: 878px;
+	height: auto;
+}
+.container {
+	position: relative;
+	margin: auto;
+	width: 1078px;
+	height: auto;
+	overflow: hidden;
+	border: 1px solid #ffffff; 
+}
+#logo img{
+	height: 30px;
+	width: 60px;
+}
+table
+{
+    margin-top:10px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+td{
+    border-style: groove;
+    border-color: black;
+    border: 1px solid black;
+    color:black;
+}
+thead
+{
+    background-color: rgb(145, 145, 145);
+}
+tbody tr:nth-child(even)
+{
+    background-color:rgb(187, 187, 187);
+}
+tbody tr:nth-child(odd)
+{
+    background-color: white;
+}
+
+.col-md {
+	padding: 0px;
+}
+#slajder
+{
+	max-height: 600px;
+	
+}
+form
+{
+	padding-top:20px;
+	color:white;
+}
+#row1 img
+{
+	width:350px;
+	height:250px;
+}
+#col1  {
+	margin-left: 40px;
+  }
+#slider img
+{
+	height:600px;
+}
